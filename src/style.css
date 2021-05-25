@@ -120,3 +120,15 @@ margin-top:0.8rem;
 }
 
 }
+
+@media(min-width:720px){
+#short-bio-wrapper {
+  width: 50vw;
+  }
+
+#hero-pic {
+  height: 10vw;
+  border-radius: 50%;
+}
+
+}
