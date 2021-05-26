@@ -42,6 +42,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 ul {
   display: flex;
   justify-content: space-around;
+  padding:1%;
 }
 
 li {
@@ -99,6 +100,7 @@ section#main {
 
 i{
   margin:0 1vw;
+  color:orangered;
 }
 
 @media(max-width:520px){
