@@ -53,6 +53,11 @@ li {
   transform: scale(1.2);
   padding: 0.05rem;
   background-color: #eccc68;
+  color:white;
+}
+
+i:hover{
+  color:cornflowerblue;
 }
 
 #hero-pic {
