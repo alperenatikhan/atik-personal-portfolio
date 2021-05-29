@@ -31,7 +31,7 @@ export default function App() {
           <div id="hero-pic-wrapper">
             <img id="hero-pic" src="https://i.imgur.com/Bz0kAbS.png" alt="" />
             <div id="header-space">
-              <h2> Alperen Atik: </h2>
+              <h2> Short Bio </h2>
               <h4>
                 Researcher, Journalist,{' '}
                 <span id="developer-span">Developer</span>
