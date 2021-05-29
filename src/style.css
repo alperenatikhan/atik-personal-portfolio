@@ -71,7 +71,7 @@ i:hover{
 
 #hero-pic {
   height: 20vw;
-  border-radius: 1rem;
+  border-radius: 20%;
   background: #f1f2b5; /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #f1f2b5, #135058); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #f1f2b5, #135058); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -80,10 +80,8 @@ i:hover{
 }
 
 #hero-pic:hover{
-  background: #00bf8f;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+ 
+animation: change-gradient 1s ease-in-out;
 
 }
 
@@ -128,6 +126,27 @@ section#main {
 i{
   margin:0 1vw;
   color:orangered;
+}
+
+@keyframes change-gradient{
+  0%{
+    background-color: white;
+  }
+  50%{
+  background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+  }
+
+
+  100%{
+      background: #00bf8f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 }
 
 @media(max-width:520px){
