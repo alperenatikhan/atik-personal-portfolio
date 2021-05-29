@@ -13,6 +13,17 @@ section{
   padding:2vh;
 }
 
+.text-link{
+  color:rgb(16, 89, 163);
+   font-weight: 600
+}
+
+.text-link:hover{
+  background-color: orange;
+  color:white;
+ ;
+}
+
 section#navbar {
   display: flex;
   flex: 1;

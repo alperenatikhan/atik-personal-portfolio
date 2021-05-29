@@ -39,8 +39,7 @@ export default function App() {
             </div>
           </div>
           <div id="text-space">
-            <p>
-              Ph.D candidate in Sociology, Independent Journalist and 
+            <p> I am a <a href="https://uni-flensburg.academia.edu/AlperenAtik" className="text-link" target="blank">Ph.D candidate </a> in Sociology, <a href="https://www.opendemocracy.net/en/author/alperen-atik/" className="text-link" target="blank"> Independent Journalist </a> and a budding coder. During the research for my doctoral dissertation, I had to analyse more than four hundred documents. For easing my research, I needed to write a webscraper with a  <a href="https://replit.com/@AlperenAtik/parklarbizimfinder" className="text-link" target="blank">keyword retrieval</a> function. For coding my first webscraper, I learnt Python by following the tutorials in <a href="" className="text-link" target="blank">CodeCademy</a>.
             </p>
           </div>
         </div>
