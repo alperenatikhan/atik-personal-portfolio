@@ -158,6 +158,10 @@ export default function App() {
             </p>
           </div>
         </div>
+        <div id="secondary-card"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est assumenda repudiandae deleniti accusantium praesentium. Quibusdam aperiam molestias quod laboriosam nisi obcaecati! Praesentium aut, tempore perferendis consequuntur impedit totam hic maiores cupiditate commodi dignissimos debitis necessitatibus sunt? Quisquam quod expedita, illo dolor veritatis temporibus, quae nisi, velit omnis sapiente cupiditate optio.
+        </div>
+        
       </section>
     </div>
   );
