@@ -38,7 +38,7 @@ li {
 
 #section-title {
   font-family: 'Lora';
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 p {
@@ -251,6 +251,7 @@ i {
 }
 
 @media (min-width: 720px) {
+
   #short-bio-wrapper {
     width: 50vw;
   }
