@@ -1,25 +1,55 @@
-h2,
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Dosis:wght@600&family=Lora&family=Marck+Script&family=Montserrat&family=Rubik&display=swap');
+
+/*
+    font-family: 'Archivo Narrow', sans-serif;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Lora', serif;
+
+    font-family: 'Marck Script', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Rubik', sans-serif;
+
+*/
+
+h2#logo-name {
+  font-family: 'Marck Script', cursive;
+  font-size: 1.6rem;
+}
+
+p#logo-subname {
+  font-family: 'Lora', serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+li {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
 p {
-  font-family: Lato;
+  font-family: 'Rubik', sans-serif;
   color: rgba(44, 48, 46, 1);
-  line-height: 1.5rem;
+  font-size:1rem;
+  line-height:1.2rem;
 }
 
 body {
   background: #abbaab; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to bottom,
-      #ffffff,
-      #abbaab
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to bottom,
-      #ffffff,
-      #abbaab)
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffffff,
+    #abbaab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ffffff, #abbaab);
+
 }
 
 section {
-  margin: 0.5rem;
+  margin: 2rem;
 }
 
 .text-link {

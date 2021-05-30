@@ -7,8 +7,8 @@ export default function App() {
       <section id="navbar">
         <div id="logo-name" className="navbar-col-left">
           {' '}
-          <h2> Alperen Atik </h2>
-          <p> Developer Portfolio Website </p>
+          <h2 id="logo-name"> Alperen Atik </h2>
+          <p id="logo-subname"> Developer Portfolio Website </p>
         </div>
 
         <div id="nav-wrapper" className="navbar-col-right">
@@ -16,18 +16,21 @@ export default function App() {
             <div className="nav-items">
               <li>
                 {' '}
-                <i className="fas fa-id-card" />Summary
+                <i className="fas fa-id-card" />
+                Summary
               </li>
             </div>
             <div className="nav-items">
               <li>
                 {' '}
-                <i className="fas fa-store" />Portfolio
+                <i className="fas fa-store" />
+                Portfolio
               </li>
             </div>
             <div className="nav-items">
               <li>
-                <i className="fas fa-globe" />Contact
+                <i className="fas fa-globe" />
+                Contact
               </li>
             </div>
           </ul>
@@ -68,7 +71,7 @@ export default function App() {
               </a>{' '}
               and a budding coder. During the research for my doctoral
               dissertation, I had to analyse more than four hundred documents.
-              For easing my research, I wrote a webscraper with a{' '}
+              For my research, I wrote a webscraper with a{' '}
               <a
                 href="https://replit.com/@AlperenAtik/parklarbizimfinder"
                 className="text-link"
