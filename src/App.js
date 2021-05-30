@@ -43,7 +43,7 @@ export default function App() {
             <img id="hero-pic" src="https://i.imgur.com/Bz0kAbS.png" alt="" />
             <div id="header-space">
               <h2 id="section-title"> Short Bio </h2>
-              <h4>
+              <h4 id= "section-subtitle">
                 Researcher, Journalist,{' '}
                 <span id="developer-span">Developer</span>
               </h4>
@@ -79,7 +79,7 @@ export default function App() {
               >
                 keyword retrieval
               </a>{' '}
-              function. For coding my first webscraper, I learnt Python by
+              function. For coding my first webscraper, I learnt basics of Python by
               following the tutorials in{' '}
               <a
                 href="https://www.codecademy.com/"
