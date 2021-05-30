@@ -154,7 +154,7 @@ export default function App() {
               >
                 projects
               </a>{' '}
-              for freecodecamp's "Front End Developer" certificate.{' '}
+              for freecodecamp's "Front End Developer" certification.{' '}
             </p>
           </div>
         </div>
