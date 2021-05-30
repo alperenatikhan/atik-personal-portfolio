@@ -6,17 +6,16 @@ p {
 }
 
 body {
-  background: #efefbb; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #d4d3dd,
-    #efefbb
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #d4d3dd,
-    #efefbb
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #abbaab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to bottom,
+      #ffffff,
+      #abbaab
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #ffffff,
+      #abbaab)
 }
 
 section {
