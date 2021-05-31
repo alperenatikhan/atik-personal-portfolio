@@ -41,15 +41,15 @@ export default function App() {
         <div id="short-bio-wrapper">
           <div id="hero-pic-wrapper">
             <img id="hero-pic" src="https://i.imgur.com/Bz0kAbS.png" alt="" />
-            <div id="header-space">
-              <h2 id="section-title"> Short Bio </h2>
-              <h4 id= "section-subtitle">
+            <div className="header-space" id="prime-title">
+              <h2 className="section-title"> Short Bio </h2>
+              <h4 className="section-subtitle">
                 Researcher, Journalist,{' '}
                 <span id="developer-span">Developer</span>
               </h4>
             </div>
           </div>
-          <div id="text-space">
+          <div className="text-space">
             <p>
               {' '}
               I am a{' '}
@@ -79,8 +79,8 @@ export default function App() {
               >
                 keyword retrieval
               </a>{' '}
-              function. For coding my first webscraper, I learnt basics of Python by
-              following the tutorials in{' '}
+              function. For coding my first webscraper, I learnt basics of
+              Python by following the tutorials in{' '}
               <a
                 href="https://www.codecademy.com/"
                 className="text-link"
@@ -158,11 +158,28 @@ export default function App() {
             </p>
           </div>
         </div>
-        <div id="secondary-card"> 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est assumenda repudiandae deleniti accusantium praesentium. Quibusdam aperiam molestias quod laboriosam nisi obcaecati! Praesentium aut, tempore perferendis consequuntur impedit totam hic maiores cupiditate commodi dignissimos debitis necessitatibus sunt? Quisquam quod expedita, illo dolor veritatis temporibus, quae nisi, velit omnis sapiente cupiditate optio.
+        <div id="secondary-card">
+          <div className="header-space">
+            <h2 className="section-title"> Details </h2>
+          </div>
+          <div className="text-space">
+            <h4 className="section-subtitle"> Spoken Languages:</h4>
+            <p style={{ textAlign: 'left' }}>
+              Turkish (Native) <br /> English (Advanced) <br /> German
+              (Intermediate) <br /> Polish(Beginner){' '}
+            </p>
+
+            <h4 className="section-subtitle">
+              {' '}
+              Programming Languages and Frameworks:{' '}
+            </h4>
+
+            <p style={{ textAlign: 'left' }}>
+              Javascript (React) <br /> Python (Flask){' '}
+            </p>
+          </div>
         </div>
-        
       </section>
-      </div>
+    </div>
   );
 }

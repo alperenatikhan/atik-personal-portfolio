@@ -16,8 +16,9 @@
 */
 
 
+
 h2#logo-name {
-  font-family: 'Marck Script', cursive;
+  font-family: 'Dosis', sans-serif;
   font-size: 1.6rem;
 }
 
@@ -33,11 +34,11 @@ li {
   font-family: 'Archivo Narrow', sans-serif;
 }
 
-#section-subtitle {
+.section-subtitle {
   font-family: 'Rubik';
 }
 
-#section-title {
+.section-title {
   font-family: 'Lora';
   font-size: 1.4rem;
 }
@@ -150,7 +151,7 @@ section#main {
   align-content: space;
 }
 
-#header-space {
+.header-space {
   margin-top: -1rem;
   text-align: left;
   line-height: 1.5rem;
@@ -164,7 +165,7 @@ section#main {
   text-shadow: 5px 3px 20px orangered;
 }
 
-#text-space {
+.text-space {
   margin-top: -1rem;
   padding: 1.2rem 1.5rem 0 1.5rem;
   line-height: 1.5rem;
@@ -280,6 +281,10 @@ i {
     width:80vw;
   }
 
+  li{
+    font-size: 0.9rem;
+  }
+
 }
 
 @media (min-width: 720px) {
@@ -287,6 +292,18 @@ i {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    }
+
+#hero-pic-wrapper{
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  align-content:space-between;
+  padding: 1.2rem 1.5rem 0 1.5rem;
+}
+
+    li{
+      font-size:1.2rem;
     }
 
 
